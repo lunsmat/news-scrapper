@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Sora:wght@400;700&display=swap');
+
+body {
+    background-color: #BDA48D;
+}
+
+.container h1 {
+    color: #593B3B;
+    font-size: 24px;
+    font-family: "Inter";
+    letter-spacing: 80px;
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 84px;
+}
+.container {
+    position: relative;
+}
+
+#searchSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 645px;
+    height: 43px;
+    margin: auto;
+
+}
+#textInput {
+    background: #464141;
+    border-radius: 14px;
+    border: #adadad;
+    width: 645px;
+    height: 43px;
+    font-family: "Inter";
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+#btn {
+    position: absolute;
+    right: 10px;
+    background-color: #464141;
+    background-size: cover;
+    width: 40px;
+    height: 43px;
+    border: none;
+}
+ 
+img {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.news {
+    row-gap: 18px;
+    width: 271px;
+    left: 180px;
+    top: 428px;
+    margin-right: 133px;
+}
+
+.newsLink {
+    display: block;
+    row-gap: 10px;
+    width: 207px;
+    height: 207px;    
+    background: #B6B6B6;
+    border-radius: 20px;
+}
+
+.newsTitle{
+    width: 147px;
+    letter-spacing: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+.newsResume {
+    width: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+#newsSection {
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+
+}
